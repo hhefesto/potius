@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.10.4)  4 OCT 2016 02:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.10.4)  4 OCT 2016 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,6 +742,14 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count156
 \@thisrulewidth=\dimen200
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 88.
+
 (./pitch.aux)
 \openout1 = `pitch.aux'.
 
@@ -923,6 +931,10 @@ LaTeX Info: Redefining \includegraphics on input line 97.
  (./pitch.nav)
 Missing character: There is no Ã in font cmss12!
 Missing character: There is no ³ in font cmss12!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no ³ in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no ³ in font cmss10!
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
@@ -933,52 +945,81 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ]
 (./pitch.toc) [2
 
-] [3
-
-] [4
-
-] [5
+]
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no © in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no ¡ in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no ³ in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no ¡ in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no ³ in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no © in font cmss10!
+Missing character: There is no Ã in font cmss10!
+Missing character: There is no © in font cmss10!
+Missing character: There is no Ã in font cmss12!
+Missing character: There is no © in font cmss12!
+ [3
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 173.
+! Too many }'s.
+\endframe ->\egroup 
+                    \begingroup \def \@currenvir {frame}
+l.135 \end{frame}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4
+
+]
+[5] [6
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 185.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 173.
+LaTeX Font Info:    Try loading font information for U+msb on input line 185.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 173.
+line 185.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[6
-
-] [7
+[7
 
 ] [8
 
-]
-\openout4 = `pitch.vrb'.
-
- (./pitch.vrb) [9
-
-] [10
+] [9
 
 ]
 \openout4 = `pitch.vrb'.
 
- (./pitch.vrb) [11
+ (./pitch.vrb) [10
 
-] [12
+] [11
+
+]
+\openout4 = `pitch.vrb'.
+
+ (./pitch.vrb) [12
+
+] [13
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [1
-3
+4
 
 ]
 \tf@nav=\write6
@@ -990,28 +1031,28 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `pitch.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
  (./pitch.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `pitch.out' has not changed.
-(rerunfilecheck)             Checksum: 263D307720953EF2ACC3DBC3B67AB706;164.
+(rerunfilecheck)             Checksum: DF55F51F480936E94343E8AF96B6E945;165.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
- 17013 strings out of 495003
- 329040 string characters out of 6181405
- 396379 words of memory out of 5000000
- 19804 multiletter control sequences out of 15000+600000
- 12833 words of font info for 46 fonts, out of 8000000 for 9000
+ 17044 strings out of 495003
+ 329979 string characters out of 6181405
+ 396644 words of memory out of 5000000
+ 19834 multiletter control sequences out of 15000+600000
+ 12482 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,20n,69p,429b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,69p,404b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texl
@@ -1019,13 +1060,12 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmtt10.pfb>
-Output written on pitch.pdf (13 pages, 134325 bytes).
+pe1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb>
+Output written on pitch.pdf (14 pages, 127328 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 470 compressed objects within 5 object streams
- 31 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 554 PDF objects out of 1000 (max. 8388607)
+ 498 compressed objects within 5 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
