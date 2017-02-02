@@ -1,0 +1,189 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-15 05:26:36.253808 UTC
+
+interface main@main:Main 7103
+  interface hash: 122c722c6178a5f0a9d580b4827caef8
+  ABI hash: 6705884e71fdb80d0efcb0c0b447560e
+  export-list hash: 7cc63c9a7bbeb2ced4e515e8e7c2e2a0
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 5dfaf784aa3011b88583989442289ea9
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.a
+  Main.main
+module dependencies:
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      base-4.8.2.0 binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz integer-gmp-1.0.0.0
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.CG
+         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Element
+         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Util
+         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Vector
+         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Numeric.Matrix
+         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Numeric.Vector
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics base-4.8.2.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Devel
+                         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Matrix
+                         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Modular
+                         hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Numeric
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 0248c1e850b7ea124cf7a2e1669ebf67
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Element eb5c16c11b72af4eb3e500837197b7a5
+import  -/  hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Matrix 47d7574db0606f2030ee71a36894bce9
+import  -/  hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Internal.Vector 5e7e9f554b1331e96f26af3f87e87be4
+import  -/  hmatrix-0.17.0.2@hmatr_48ekk5lFtSc42AbtSb4jyz:Numeric.LinearAlgebra d7715c5e040abaab6307c87f54ec3f11
+98624614f30aece2d53a01e7775e7350
+  a :: Internal.Matrix.Matrix Internal.Vector.R
+  {- Unfolding: (case Internal.Element.$w><
+                        @ Internal.Vector.R
+                        Foreign.Storable.$fStorableDouble
+                        4
+                        3
+                        Main.a1 of ww4 { (#,,,,,,#) ww5 ww6 ww7 ww8 ww9 ww10 ww11 ->
+                 Internal.Matrix.Matrix
+                   @ Internal.Vector.R
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   ww11 }) -}
+724626f0e33d461d01027c7cc216f549
+  a1 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a13 Main.a2) -}
+34138a150b4c5a8d9aa7804b992309b0
+  a10 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a14 Main.a11) -}
+838330f815a12a22d107f74a84d95d84
+  a11 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a14 Main.a12) -}
+2a3c438ff2bf1a217e2fd4047e4ce462
+  a12 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ Internal.Vector.R
+                   Main.a13
+                   (GHC.Types.[] @ Internal.Vector.R)) -}
+95342a7e3b7acf1f3cc7a7eea40c40c4
+  a13 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0) -}
+130e6b4c4a5da00b2e6f7cef0bc26888
+  a14 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 3.0) -}
+146a59fa6f0af6dcc16f1e4316ce41b0
+  a15 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 2.0) -}
+d96f05bc5580f21becb107c3bcbfcb63
+  a16 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 7.0) -}
+3f47ec5c3e7ac2c7194cd8f8035e0c8c
+  a17 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 5.0) -}
+82b4b920093c29feb15d23a36adc290e
+  a18 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.0) -}
+5933cae41d6df45c523c447e1fd0b976
+  a19 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 4.0) -}
+5f76c2be08a3a73d458f8002faf7135e
+  a2 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a15 Main.a3) -}
+dfb0c43d41e4972d4dcfc9941fcbf98d
+  a3 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a14 Main.a4) -}
+74e6bab05d817aec37a9b38c5f303a10
+  a4 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a19 Main.a5) -}
+7f78bc54fe8f4fdb5bcf7376c2a0f90c
+  a5 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a18 Main.a6) -}
+6d8692a2529fb2ceadbde4084ed6cdff
+  a6 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a17 Main.a7) -}
+274b3a4951a2708d67da97caf9172c4f
+  a7 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a16 Main.a8) -}
+9b8439dc3b382b030652ad0ebe90c468
+  a8 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a16 Main.a9) -}
+570df7de221a98c36ad8c026a029e79e
+  a9 :: [Internal.Vector.R]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.: @ Internal.Vector.R Main.a15 Main.a10) -}
+496355e65d0496bfde22a8a45444d5f7
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+024de057cd84ae50204547334d2a3baa
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Main.main2
+                   GHC.Types.True
+                   eta) -}
+d28440bffc83ede4952c55cc1ae256d6
+  main2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Hola, Mundo."#) -}
+155ac99801916100fe64b4d7b3143d02
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

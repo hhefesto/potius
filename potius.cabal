@@ -5,8 +5,8 @@ description:         Please see README.md
 homepage:            https://github.com/githubuser/potius#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
+author:              hefesto
+maintainer:          daniel.herrera.rendon@gmail.com
 copyright:           2016 Author name here
 category:            Web
 build-type:          Simple
@@ -16,4 +16,19 @@ executable potius
   hs-source-dirs:      src
   main-is:             Main.hs
   default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5
+  build-depends:       base >= 4.8.1.0 && < 5,
+                       persistent-template,
+                       persistent-postgresql,
+                       persistent,
+                       monad-logger,
+                       transformers,
+                       time,
+                       resourcet,
+                       scotty,
+                       aeson,
+                       text,
+                       safe,
+                       email-validate,
+                       esqueleto,
+                       hmatrix
+
